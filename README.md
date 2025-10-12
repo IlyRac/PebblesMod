@@ -10,7 +10,7 @@ Pebble Mod adds beautifully crafted pebbles that spawn naturally throughout your
 - Snow-covered pebbles in snowy biomes
 - Place individual pebbles or clusters (1-4 per block)
 -----------------------------------------------------------------------------------------------
-![Throwing Large](https://github.com/user-attachments/assets/c95202f7-e44b-4ea5-a21c-b589340d4772)
+<img width="1920" height="1080" alt="Throwing Freezed" src="https://github.com/user-attachments/assets/383fecfa-a7f2-4a65-8a95-85a17ae4e5d9" />
 - Use as a ranged weapons dealing 1 heart damage
 - Automatically throw pebbles from dispensers
 -----------------------------------------------------------------------------------------------
