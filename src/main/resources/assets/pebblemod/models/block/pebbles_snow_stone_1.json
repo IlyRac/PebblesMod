@@ -1,0 +1,22 @@
+{
+  "parent": "block/block",
+  "textures": {
+    "particle": "minecraft:block/snow",
+    "0": "minecraft:block/snow"
+  },
+  "elements": [
+    {
+      "from": [3, 0, 2],
+      "to": [8, 3, 7],
+      "rotation": {"angle": 0, "axis": "y", "origin": [2, 0, 1]},
+      "faces": {
+        "north": {"uv": [0, 0, 5, 3], "texture": "#0"},
+        "east": {"uv": [0, 0, 5, 3], "texture": "#0"},
+        "south": {"uv": [0, 0, 5, 3], "texture": "#0"},
+        "west": {"uv": [0, 0, 5, 3], "texture": "#0"},
+        "up": {"uv": [0, 0, 5, 3], "texture": "#0"},
+        "down": {"uv": [0, 0, 5, 3], "texture": "#0"}
+      }
+    }
+  ]
+}

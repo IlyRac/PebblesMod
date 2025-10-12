@@ -1,0 +1,83 @@
+{
+  "variants": {
+    "facing=north,pebbles=1,pebble_type=stone": { "model": "pebblemod:block/pebbles_stone_1" },
+    "facing=east,pebbles=1,pebble_type=stone": { "model": "pebblemod:block/pebbles_stone_1", "y": 90 },
+    "facing=south,pebbles=1,pebble_type=stone": { "model": "pebblemod:block/pebbles_stone_1", "y": 180 },
+    "facing=west,pebbles=1,pebble_type=stone": { "model": "pebblemod:block/pebbles_stone_1", "y": 270 },
+
+    "facing=north,pebbles=2,pebble_type=stone": { "model": "pebblemod:block/pebbles_stone_2" },
+    "facing=east,pebbles=2,pebble_type=stone": { "model": "pebblemod:block/pebbles_stone_2", "y": 90 },
+    "facing=south,pebbles=2,pebble_type=stone": { "model": "pebblemod:block/pebbles_stone_2", "y": 180 },
+    "facing=west,pebbles=2,pebble_type=stone": { "model": "pebblemod:block/pebbles_stone_2", "y": 270 },
+
+    "facing=north,pebbles=3,pebble_type=stone": { "model": "pebblemod:block/pebbles_stone_3" },
+    "facing=east,pebbles=3,pebble_type=stone": { "model": "pebblemod:block/pebbles_stone_3", "y": 90 },
+    "facing=south,pebbles=3,pebble_type=stone": { "model": "pebblemod:block/pebbles_stone_3", "y": 180 },
+    "facing=west,pebbles=3,pebble_type=stone": { "model": "pebblemod:block/pebbles_stone_3", "y": 270 },
+
+    "facing=north,pebbles=4,pebble_type=stone": { "model": "pebblemod:block/pebbles_stone_4" },
+    "facing=east,pebbles=4,pebble_type=stone": { "model": "pebblemod:block/pebbles_stone_4", "y": 90 },
+    "facing=south,pebbles=4,pebble_type=stone": { "model": "pebblemod:block/pebbles_stone_4", "y": 180 },
+    "facing=west,pebbles=4,pebble_type=stone": { "model": "pebblemod:block/pebbles_stone_4", "y": 270 },
+
+    "facing=north,pebbles=1,pebble_type=sandstone": { "model": "pebblemod:block/pebbles_sandstone_1" },
+    "facing=east,pebbles=1,pebble_type=sandstone": { "model": "pebblemod:block/pebbles_sandstone_1", "y": 90 },
+    "facing=south,pebbles=1,pebble_type=sandstone": { "model": "pebblemod:block/pebbles_sandstone_1", "y": 180 },
+    "facing=west,pebbles=1,pebble_type=sandstone": { "model": "pebblemod:block/pebbles_sandstone_1", "y": 270 },
+
+    "facing=north,pebbles=2,pebble_type=sandstone": { "model": "pebblemod:block/pebbles_sandstone_2" },
+    "facing=east,pebbles=2,pebble_type=sandstone": { "model": "pebblemod:block/pebbles_sandstone_2", "y": 90 },
+    "facing=south,pebbles=2,pebble_type=sandstone": { "model": "pebblemod:block/pebbles_sandstone_2", "y": 180 },
+    "facing=west,pebbles=2,pebble_type=sandstone": { "model": "pebblemod:block/pebbles_sandstone_2", "y": 270 },
+
+    "facing=north,pebbles=3,pebble_type=sandstone": { "model": "pebblemod:block/pebbles_sandstone_3" },
+    "facing=east,pebbles=3,pebble_type=sandstone": { "model": "pebblemod:block/pebbles_sandstone_3", "y": 90 },
+    "facing=south,pebbles=3,pebble_type=sandstone": { "model": "pebblemod:block/pebbles_sandstone_3", "y": 180 },
+    "facing=west,pebbles=3,pebble_type=sandstone": { "model": "pebblemod:block/pebbles_sandstone_3", "y": 270 },
+
+    "facing=north,pebbles=4,pebble_type=sandstone": { "model": "pebblemod:block/pebbles_sandstone_4" },
+    "facing=east,pebbles=4,pebble_type=sandstone": { "model": "pebblemod:block/pebbles_sandstone_4", "y": 90 },
+    "facing=south,pebbles=4,pebble_type=sandstone": { "model": "pebblemod:block/pebbles_sandstone_4", "y": 180 },
+    "facing=west,pebbles=4,pebble_type=sandstone": { "model": "pebblemod:block/pebbles_sandstone_4", "y": 270 },
+
+    "facing=north,pebbles=1,pebble_type=red_sandstone": { "model": "pebblemod:block/pebbles_red_sandstone_1" },
+    "facing=east,pebbles=1,pebble_type=red_sandstone": { "model": "pebblemod:block/pebbles_red_sandstone_1", "y": 90 },
+    "facing=south,pebbles=1,pebble_type=red_sandstone": { "model": "pebblemod:block/pebbles_red_sandstone_1", "y": 180 },
+    "facing=west,pebbles=1,pebble_type=red_sandstone": { "model": "pebblemod:block/pebbles_red_sandstone_1", "y": 270 },
+
+    "facing=north,pebbles=2,pebble_type=red_sandstone": { "model": "pebblemod:block/pebbles_red_sandstone_2" },
+    "facing=east,pebbles=2,pebble_type=red_sandstone": { "model": "pebblemod:block/pebbles_red_sandstone_2", "y": 90 },
+    "facing=south,pebbles=2,pebble_type=red_sandstone": { "model": "pebblemod:block/pebbles_red_sandstone_2", "y": 180 },
+    "facing=west,pebbles=2,pebble_type=red_sandstone": { "model": "pebblemod:block/pebbles_red_sandstone_2", "y": 270 },
+
+    "facing=north,pebbles=3,pebble_type=red_sandstone": { "model": "pebblemod:block/pebbles_red_sandstone_3" },
+    "facing=east,pebbles=3,pebble_type=red_sandstone": { "model": "pebblemod:block/pebbles_red_sandstone_3", "y": 90 },
+    "facing=south,pebbles=3,pebble_type=red_sandstone": { "model": "pebblemod:block/pebbles_red_sandstone_3", "y": 180 },
+    "facing=west,pebbles=3,pebble_type=red_sandstone": { "model": "pebblemod:block/pebbles_red_sandstone_3", "y": 270 },
+
+    "facing=north,pebbles=4,pebble_type=red_sandstone": { "model": "pebblemod:block/pebbles_red_sandstone_4" },
+    "facing=east,pebbles=4,pebble_type=red_sandstone": { "model": "pebblemod:block/pebbles_red_sandstone_4", "y": 90 },
+    "facing=south,pebbles=4,pebble_type=red_sandstone": { "model": "pebblemod:block/pebbles_red_sandstone_4", "y": 180 },
+    "facing=west,pebbles=4,pebble_type=red_sandstone": { "model": "pebblemod:block/pebbles_red_sandstone_4", "y": 270 },
+
+    "facing=north,pebbles=1,pebble_type=snow_stone": { "model": "pebblemod:block/pebbles_snow_stone_1" },
+    "facing=east,pebbles=1,pebble_type=snow_stone": { "model": "pebblemod:block/pebbles_snow_stone_1", "y": 90 },
+    "facing=south,pebbles=1,pebble_type=snow_stone": { "model": "pebblemod:block/pebbles_snow_stone_1", "y": 180 },
+    "facing=west,pebbles=1,pebble_type=snow_stone": { "model": "pebblemod:block/pebbles_snow_stone_1", "y": 270 },
+
+    "facing=north,pebbles=2,pebble_type=snow_stone": { "model": "pebblemod:block/pebbles_snow_stone_2" },
+    "facing=east,pebbles=2,pebble_type=snow_stone": { "model": "pebblemod:block/pebbles_snow_stone_2", "y": 90 },
+    "facing=south,pebbles=2,pebble_type=snow_stone": { "model": "pebblemod:block/pebbles_snow_stone_2", "y": 180 },
+    "facing=west,pebbles=2,pebble_type=snow_stone": { "model": "pebblemod:block/pebbles_snow_stone_2", "y": 270 },
+
+    "facing=north,pebbles=3,pebble_type=snow_stone": { "model": "pebblemod:block/pebbles_snow_stone_3" },
+    "facing=east,pebbles=3,pebble_type=snow_stone": { "model": "pebblemod:block/pebbles_snow_stone_3", "y": 90 },
+    "facing=south,pebbles=3,pebble_type=snow_stone": { "model": "pebblemod:block/pebbles_snow_stone_3", "y": 180 },
+    "facing=west,pebbles=3,pebble_type=snow_stone": { "model": "pebblemod:block/pebbles_snow_stone_3", "y": 270 },
+
+    "facing=north,pebbles=4,pebble_type=snow_stone": { "model": "pebblemod:block/pebbles_snow_stone_4" },
+    "facing=east,pebbles=4,pebble_type=snow_stone": { "model": "pebblemod:block/pebbles_snow_stone_4", "y": 90 },
+    "facing=south,pebbles=4,pebble_type=snow_stone": { "model": "pebblemod:block/pebbles_snow_stone_4", "y": 180 },
+    "facing=west,pebbles=4,pebble_type=snow_stone": { "model": "pebblemod:block/pebbles_snow_stone_4", "y": 270 }
+  }
+}

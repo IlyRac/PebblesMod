@@ -1,0 +1,33 @@
+{
+  "parent": "pebblemod:recipes/root",
+  "criteria": {
+    "has_stone_pebble": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "pebblemod:stone_pebble"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "pebblemod:stone_pebbles_to_cobblestone"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_stone_pebble"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "pebblemod:stone_pebbles_to_cobblestone",
+      "pebblemod:cobblestone_to_stone_pebbles"
+    ]
+  }
+}

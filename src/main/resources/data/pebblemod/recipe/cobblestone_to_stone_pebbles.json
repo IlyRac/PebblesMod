@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "minecraft:cobblestone"
+  ],
+  "result": {
+    "count": 9,
+    "id": "pebblemod:stone_pebble"
+  }
+}

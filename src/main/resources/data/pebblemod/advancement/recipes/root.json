@@ -1,0 +1,12 @@
+{
+  "criteria": {
+    "impossible": {
+      "trigger": "pebblemod:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "impossible"
+    ]
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "parent": "pebblemod:recipes/root",
+  "criteria": {
+    "has_sandstone_pebble": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "pebblemod:sandstone_pebble"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "pebblemod:sandstone_pebbles_to_sandstone"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_sandstone_pebble"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "pebblemod:sandstone_pebbles_to_sandstone",
+      "pebblemod:sandstone_to_sandstone_pebbles"
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+	"schemaVersion": 1,
+	"id": "pebblemod",
+	"version": "1.0",
+	"name": "pebblemod",
+	"description": "pebbles to decorate your world and make it feel more alive!",
+	"authors": [
+		"IlyRash"
+	],
+	"contact": {
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/pebblemod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.ilyrash.pebblemod.Pebblemod"
+		],
+		"client": [
+			"com.ilyrash.pebblemod.PebblemodClient"
+		],
+		"fabric-datagen": [
+			"com.ilyrash.pebblemod.PebblemodDataGenerator"
+		]
+	},
+	"mixins": [
+		"pebblemod.mixins.json",
+		{
+			"config": "pebblemod.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.21.10",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
