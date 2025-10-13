@@ -1,39 +1,57 @@
-# **Pebbles**
+# Pebbles
 
-Pebble Mod adds beautifully crafted pebbles that spawn naturally throughout your Minecraft world, making it feel more realistic and lived-in.
+Pebbles Mod adds beautifully crafted pebbles that spawn naturally throughout your Minecraft world, making it feel more realistic and lived-in.
 
-## Features:
+---
 
-<img width="2665" height="1080" alt="All" src="https://github.com/user-attachments/assets/10a1fa57-87f3-4806-b708-7e2b03dbb3aa" />
+## ✨ Features
 
+![Pebbles Variety](https://cdn.modrinth.com/data/cached_images/40bcde0c55d17e86a3a9b3efd01af49f736a43c5.png)
+
+### 🌍 Natural Spawning
 - Pebbles spawn on the ground in appropriate biomes
-- Stone, sandstone, and red sandstone pebbles
+- Stone, sandstone, and red sandstone pebbles  
 - Snow-covered pebbles in snowy biomes
 - Place individual pebbles or clusters (1-4 per block)
 
------------------------------------------------------------------------------------------------
+---
 
-<img width="1920" height="1080" alt="Throwing Freezed" src="https://github.com/user-attachments/assets/383fecfa-a7f2-4a65-8a95-85a17ae4e5d9" />
+![Throwing Mechanics](https://cdn.modrinth.com/data/cached_images/fae2100ab3c4c18d17d25b1a091ac4879ce66dd0.gif)
 
-- Use as a ranged weapons dealing 1 heart damage
+### 🎯 Combat & Mechanics
+- Use as ranged weapons dealing 1 heart damage
 - Automatically throw pebbles from dispensers
 
------------------------------------------------------------------------------------------------
+---
 
-<img width="1062" height="395" alt="Crafting" src="https://github.com/user-attachments/assets/6afde060-b390-4ccf-91ba-2802cb2ba4ef" />
+![Crafting System](https://cdn.modrinth.com/data/cached_images/2a6e2193c86f06640f80649b7946adfa8e906a43.png)
 
+### 🔄 Crafting & Conversion
 - Convert between pebbles and blocks (9:1 ratio)
 
-## Perfect For:
-- Building realistic paths and gardens
-- Adding detail to natural landscapes
-- Early-game ranged weapons
-- Ground clutter for immersive builds
+---
 
------------------------------------------------------------------------------------------------
+## 🎯 Perfect For
 
-[Support Me](https://ko-fi.com/ilyrash)
+- **🏡 Builders**: Creating realistic paths and gardens
+- **🎨 Detail Artists**: Adding detail to natural landscapes  
+- **⚔️ Early Gamers**: Early-game ranged weapons
+- **🌳 Immersion Lovers**: Ground clutter for immersive builds
 
-[Report Issues](https://github.com/ilyrash/PebblesMod/issues)
+---
 
-*Requires Fabric API | MIT License*
+## 🔗 Links
+
+[💝 Support Me](https://ko-fi.com/ilyrash)
+
+[🐛 Report Issues](https://github.com/ilyrash/PebblesMod/issues)
+
+[📦 CurseForge](https://www.curseforge.com/minecraft/mc-mods/pebblesmod)
+
+[📦 Modrinth](https://modrinth.com/mod/pebbles)
+
+[🔗 Source Code](https://github.com/ilyrash/PebblesMod)
+
+---
+
+*Fabric API | MIT License*
