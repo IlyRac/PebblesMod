@@ -6,7 +6,7 @@ Pebbles Mod adds beautifully crafted pebbles that spawn naturally throughout you
 
 ## ✨ Features
 
-![Pebbles Variety](https://cdn.modrinth.com/data/cached_images/40bcde0c55d17e86a3a9b3efd01af49f736a43c5.png)
+![Pebbles](https://cdn.modrinth.com/data/cached_images/40bcde0c55d17e86a3a9b3efd01af49f736a43c5.png)
 
 ### 🌍 Natural Spawning
 - Pebbles spawn on the ground in appropriate biomes
