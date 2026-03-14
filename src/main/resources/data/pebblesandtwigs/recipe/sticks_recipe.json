@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "twigs",
+  "ingredients": [
+    "#pebblesandtwigs:twigs"
+  ],
+  "result": {
+    "id": "minecraft:stick",
+    "count": 2
+  }
+}

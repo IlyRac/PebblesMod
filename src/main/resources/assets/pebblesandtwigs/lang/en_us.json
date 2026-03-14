@@ -1,0 +1,38 @@
+{
+  "item.pebblesandtwigs.andesite_pebble": "Andesite Pebble",
+  "item.pebblesandtwigs.blackstone_pebble": "Blackstone Pebble",
+  "item.pebblesandtwigs.deepslate_pebble": "Deepslate Pebble",
+  "item.pebblesandtwigs.diorite_pebble": "Diorite Pebble",
+  "item.pebblesandtwigs.end_stone_pebble": "End Stone Pebble",
+  "item.pebblesandtwigs.granite_pebble": "Granite Pebble",
+  "item.pebblesandtwigs.sandstone_pebble": "Sandstone Pebble",
+  "item.pebblesandtwigs.red_sandstone_pebble": "Red Sandstone Pebble",
+  "item.pebblesandtwigs.stone_pebble": "Stone Pebble",
+  "item.pebblesandtwigs.tuff_pebble": "Tuff Pebble",
+
+  "item.pebblesandtwigs.oak_twig": "Oak Twig",
+  "item.pebblesandtwigs.birch_twig": "Birch Twig",
+  "item.pebblesandtwigs.spruce_twig": "Spruce Twig",
+  "item.pebblesandtwigs.jungle_twig": "Jungle Twig",
+  "item.pebblesandtwigs.acacia_twig": "Acacia Twig",
+  "item.pebblesandtwigs.dark_oak_twig": "Dark Oak Twig",
+  "item.pebblesandtwigs.mangrove_twig": "Mangrove Twig",
+  "item.pebblesandtwigs.cherry_twig": "Cherry Twig",
+  "item.pebblesandtwigs.pale_oak_twig": "Pale Oak Twig",
+  "item.pebblesandtwigs.crimson_twig": "Crimson Twig",
+  "item.pebblesandtwigs.warped_twig": "Warped Twig",
+
+  "item.pebblesandtwigs.stripped_oak_twig": "Stripped Oak Twig",
+  "item.pebblesandtwigs.stripped_birch_twig": "Stripped Birch Twig",
+  "item.pebblesandtwigs.stripped_spruce_twig": "Stripped Spruce Twig",
+  "item.pebblesandtwigs.stripped_jungle_twig": "Stripped Jungle Twig",
+  "item.pebblesandtwigs.stripped_acacia_twig": "Stripped Acacia Twig",
+  "item.pebblesandtwigs.stripped_dark_oak_twig": "Stripped Dark Oak Twig",
+  "item.pebblesandtwigs.stripped_mangrove_twig": "Stripped Mangrove Twig",
+  "item.pebblesandtwigs.stripped_cherry_twig": "Stripped Cherry Twig",
+  "item.pebblesandtwigs.stripped_pale_oak_twig": "Stripped Pale Oak Twig",
+  "item.pebblesandtwigs.stripped_crimson_twig": "Stripped Crimson Twig",
+  "item.pebblesandtwigs.stripped_warped_twig": "Stripped Warped Twig",
+
+  "entity.pebblesandtwigs.thrown_pebble": "Thrown Pebble"
+}

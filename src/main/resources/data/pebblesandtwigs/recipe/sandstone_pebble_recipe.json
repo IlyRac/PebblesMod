@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "Pebbles",
+  "ingredients": [
+    "minecraft:sandstone"
+  ],
+  "result": {
+    "id": "pebblesandtwigs:sandstone_pebble",
+    "count": 9
+  }
+}

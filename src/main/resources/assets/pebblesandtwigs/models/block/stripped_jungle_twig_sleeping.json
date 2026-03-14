@@ -1,0 +1,6 @@
+{
+  "parent": "pebblesandtwigs:block/parent_twig_sleeping",
+  "textures": {
+    "texture": "minecraft:block/stripped_jungle_log"
+  }
+}

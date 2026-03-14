@@ -1,0 +1,6 @@
+{
+  "parent": "pebblesandtwigs:block/pebble_parent_4",
+  "textures": {
+    "texture": "minecraft:block/blackstone"
+  }
+}
