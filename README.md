@@ -20,6 +20,8 @@
 
 <p><strong>Breathe life into your world by adding stackable pebbles and tree twigs that transform empty terrain into a detailed and lively environment. From forest floors littered with wood debris to rocky cave floors and vast ocean beds, this mod enhances the vanilla atmosphere with small, immersive details that make every biome feel more organic and unique.</strong></p>
 
+<img src="https://cdn.modrinth.com/data/cached_images/f6ef887bacd28dd7b33c69a2b118d45a75111082.gif" alt="Throwing" style="max-width:100%;">
+
 <hr>
 
 <details>
@@ -67,7 +69,17 @@
 
 <details>
   <summary>🖼️ Gallery</summary>
-  <p align="center"><em>(Add your screenshots here)</em></p>
+  <img src="https://cdn.modrinth.com/data/cached_images/82dfa5f50311c2fae23475b70d800c14bf36fb42.png" alt="Forest" style="max-width:100%; margin-bottom:10px;">
+  <img src="https://cdn.modrinth.com/data/cached_images/85914c303545b9aa28dae29a6488114d2359f6ad.png" alt="Tiaga" style="max-width:100%; margin-bottom:10px;">
+  <img src="https://cdn.modrinth.com/data/cached_images/01ff4faddf5cca00fb4d7f230e3d0beebf6a1e88.png" alt="Cave" style="max-width:100%; margin-bottom:10px;">
+  <img src="https://cdn.modrinth.com/data/cached_images/1ee297c43f65722ffa52dd759a19b72288b5bf33.png" alt="Ocean" style="max-width:100%; margin-bottom:10px;">
+  <img src="https://cdn.modrinth.com/data/cached_images/b212ddbcddf235444338412ff10b5445ec123381.png" alt="Nether" style="max-width:100%; margin-bottom:10px;">
+  <img src="https://cdn.modrinth.com/data/cached_images/c152c8ff9a09bf246c0b4caa650564516fd58675.png" alt="End" style="max-width:100%; margin-bottom:10px;">
+  <img src="https://cdn.modrinth.com/data/cached_images/6427c603f7566833da91cc9f124a42135afefc05.png" alt="Recipes" style="max-width:100%; margin-bottom:10px;">
+  <img src="https://cdn.modrinth.com/data/cached_images/4cbd7b977ee7093c6ddc988de664cbef14d776fb.png" alt="Tree & Signs" style="max-width:100%; margin-bottom:10px;">
+  <img src="https://cdn.modrinth.com/data/cached_images/dc4f701ee79a068a686cdc8bf396f1634791bccc.png" alt="Road" style="max-width:100%; margin-bottom:10px;">
+  <img src="https://cdn.modrinth.com/data/cached_images/29ab3eca9c82f004566fdc0f62771dff85dbc4d2.png" alt="Lamp" style="max-width:100%; margin-bottom:10px;">
+  <img src="https://cdn.modrinth.com/data/cached_images/677e44129932aba7d07da647a3aae5c06398518f.png" alt="Barrier" style="max-width:100%; ">
 </details>
 
 <hr>
