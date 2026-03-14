@@ -58,7 +58,8 @@
   <summary>🎮 How to Use</summary>
   <ol>
     <li><strong>Stacking:</strong> Right-click an existing pebble with another of the same type to increase the cluster size (up to 4).</li>
-    <li><strong>Orientation:</strong> Aim at the top of a block for vertical twigs; aim at the side of a block for horizontal twigs.</li>
+    <li><strong>Orientation:</strong> Aim at the top of a block for vertical twigs; aim at the side or bottom of a block for horizontal twigs.</li>
+    <li><strong>Precision Placement:</strong> Horizontal twigs follow trapdoor logic! Aim at the <strong>top half</strong> of a block's side to place the twig at the top of the block space, or the <strong>bottom half</strong> to place it on the surface.</li>
     <li><strong>Stripping:</strong> Use any Axe on a placed twig to strip it.</li>
     <li><strong>Defense:</strong> Right-click with a pebble to throw it, or use a <strong>Dispenser</strong> for base defense.</li>
   </ol>

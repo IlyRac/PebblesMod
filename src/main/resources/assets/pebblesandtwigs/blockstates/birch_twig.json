@@ -1,13 +1,140 @@
 {
   "variants": {
-    "facing=north,standing=true":  { "model": "pebblesandtwigs:block/birch_twig_standing" },
-    "facing=south,standing=true":  { "model": "pebblesandtwigs:block/birch_twig_standing" },
-    "facing=east,standing=true":   { "model": "pebblesandtwigs:block/birch_twig_standing" },
-    "facing=west,standing=true":   { "model": "pebblesandtwigs:block/birch_twig_standing" },
-
-    "facing=north,standing=false": { "model": "pebblesandtwigs:block/birch_twig_sleeping" },
-    "facing=south,standing=false": { "model": "pebblesandtwigs:block/birch_twig_sleeping", "y": 180 },
-    "facing=east,standing=false":  { "model": "pebblesandtwigs:block/birch_twig_sleeping", "y": 90 },
-    "facing=west,standing=false":  { "model": "pebblesandtwigs:block/birch_twig_sleeping", "y": 270 }
+    "facing=north,half=bottom,standing=true,waterlogged=true": {
+      "model": "pebblesandtwigs:block/birch_twig_standing"
+    },
+    "facing=south,half=bottom,standing=true,waterlogged=true": {
+      "model": "pebblesandtwigs:block/birch_twig_standing",
+      "y": 180
+    },
+    "facing=east,half=bottom,standing=true,waterlogged=true": {
+      "model": "pebblesandtwigs:block/birch_twig_standing",
+      "y": 90
+    },
+    "facing=west,half=bottom,standing=true,waterlogged=true": {
+      "model": "pebblesandtwigs:block/birch_twig_standing",
+      "y": 270
+    },
+    "facing=north,half=bottom,standing=true,waterlogged=false": {
+      "model": "pebblesandtwigs:block/birch_twig_standing"
+    },
+    "facing=south,half=bottom,standing=true,waterlogged=false": {
+      "model": "pebblesandtwigs:block/birch_twig_standing",
+      "y": 180
+    },
+    "facing=east,half=bottom,standing=true,waterlogged=false": {
+      "model": "pebblesandtwigs:block/birch_twig_standing",
+      "y": 90
+    },
+    "facing=west,half=bottom,standing=true,waterlogged=false": {
+      "model": "pebblesandtwigs:block/birch_twig_standing",
+      "y": 270
+    },
+    "facing=north,half=top,standing=true,waterlogged=true": {
+      "model": "pebblesandtwigs:block/birch_twig_standing",
+      "x": 180
+    },
+    "facing=south,half=top,standing=true,waterlogged=true": {
+      "model": "pebblesandtwigs:block/birch_twig_standing",
+      "x": 180,
+      "y": 180
+    },
+    "facing=east,half=top,standing=true,waterlogged=true": {
+      "model": "pebblesandtwigs:block/birch_twig_standing",
+      "x": 180,
+      "y": 90
+    },
+    "facing=west,half=top,standing=true,waterlogged=true": {
+      "model": "pebblesandtwigs:block/birch_twig_standing",
+      "x": 180,
+      "y": 270
+    },
+    "facing=north,half=top,standing=true,waterlogged=false": {
+      "model": "pebblesandtwigs:block/birch_twig_standing",
+      "x": 180
+    },
+    "facing=south,half=top,standing=true,waterlogged=false": {
+      "model": "pebblesandtwigs:block/birch_twig_standing",
+      "x": 180,
+      "y": 180
+    },
+    "facing=east,half=top,standing=true,waterlogged=false": {
+      "model": "pebblesandtwigs:block/birch_twig_standing",
+      "x": 180,
+      "y": 90
+    },
+    "facing=west,half=top,standing=true,waterlogged=false": {
+      "model": "pebblesandtwigs:block/birch_twig_standing",
+      "x": 180,
+      "y": 270
+    },
+    "facing=north,half=bottom,standing=false,waterlogged=true": {
+      "model": "pebblesandtwigs:block/birch_twig_sleeping"
+    },
+    "facing=south,half=bottom,standing=false,waterlogged=true": {
+      "model": "pebblesandtwigs:block/birch_twig_sleeping",
+      "y": 180
+    },
+    "facing=east,half=bottom,standing=false,waterlogged=true": {
+      "model": "pebblesandtwigs:block/birch_twig_sleeping",
+      "y": 90
+    },
+    "facing=west,half=bottom,standing=false,waterlogged=true": {
+      "model": "pebblesandtwigs:block/birch_twig_sleeping",
+      "y": 270
+    },
+    "facing=north,half=bottom,standing=false,waterlogged=false": {
+      "model": "pebblesandtwigs:block/birch_twig_sleeping"
+    },
+    "facing=south,half=bottom,standing=false,waterlogged=false": {
+      "model": "pebblesandtwigs:block/birch_twig_sleeping",
+      "y": 180
+    },
+    "facing=east,half=bottom,standing=false,waterlogged=false": {
+      "model": "pebblesandtwigs:block/birch_twig_sleeping",
+      "y": 90
+    },
+    "facing=west,half=bottom,standing=false,waterlogged=false": {
+      "model": "pebblesandtwigs:block/birch_twig_sleeping",
+      "y": 270
+    },
+    "facing=north,half=top,standing=false,waterlogged=true": {
+      "model": "pebblesandtwigs:block/birch_twig_sleeping",
+      "x": 180
+    },
+    "facing=south,half=top,standing=false,waterlogged=true": {
+      "model": "pebblesandtwigs:block/birch_twig_sleeping",
+      "x": 180,
+      "y": 180
+    },
+    "facing=east,half=top,standing=false,waterlogged=true": {
+      "model": "pebblesandtwigs:block/birch_twig_sleeping",
+      "x": 180,
+      "y": 90
+    },
+    "facing=west,half=top,standing=false,waterlogged=true": {
+      "model": "pebblesandtwigs:block/birch_twig_sleeping",
+      "x": 180,
+      "y": 270
+    },
+    "facing=north,half=top,standing=false,waterlogged=false": {
+      "model": "pebblesandtwigs:block/birch_twig_sleeping",
+      "x": 180
+    },
+    "facing=south,half=top,standing=false,waterlogged=false": {
+      "model": "pebblesandtwigs:block/birch_twig_sleeping",
+      "x": 180,
+      "y": 180
+    },
+    "facing=east,half=top,standing=false,waterlogged=false": {
+      "model": "pebblesandtwigs:block/birch_twig_sleeping",
+      "x": 180,
+      "y": 90
+    },
+    "facing=west,half=top,standing=false,waterlogged=false": {
+      "model": "pebblesandtwigs:block/birch_twig_sleeping",
+      "x": 180,
+      "y": 270
+    }
   }
 }
