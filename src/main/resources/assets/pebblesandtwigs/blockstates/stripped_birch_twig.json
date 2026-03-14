@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "facing=north,standing=true":  { "model": "pebblesandtwigs:block/stripped_birch_twig_standing" },
+    "facing=south,standing=true":  { "model": "pebblesandtwigs:block/stripped_birch_twig_standing" },
+    "facing=east,standing=true":   { "model": "pebblesandtwigs:block/stripped_birch_twig_standing" },
+    "facing=west,standing=true":   { "model": "pebblesandtwigs:block/stripped_birch_twig_standing" },
+
+    "facing=north,standing=false": { "model": "pebblesandtwigs:block/stripped_birch_twig_sleeping" },
+    "facing=south,standing=false": { "model": "pebblesandtwigs:block/stripped_birch_twig_sleeping", "y": 180 },
+    "facing=east,standing=false":  { "model": "pebblesandtwigs:block/stripped_birch_twig_sleeping", "y": 90 },
+    "facing=west,standing=false":  { "model": "pebblesandtwigs:block/stripped_birch_twig_sleeping", "y": 270 }
+  }
+}

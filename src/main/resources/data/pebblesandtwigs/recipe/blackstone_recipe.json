@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "Pebbles",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": "pebblesandtwigs:blackstone_pebble"
+  },
+  "result": {
+    "id": "minecraft:blackstone",
+    "count": 1
+  }
+}

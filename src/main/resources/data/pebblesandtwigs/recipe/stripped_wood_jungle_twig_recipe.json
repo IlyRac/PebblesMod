@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "twigs",
+  "pattern": [
+    "L",
+    "L"
+  ],
+  "key": {
+    "L": "minecraft:stripped_jungle_wood"
+  },
+  "result": {
+    "id": "pebblesandtwigs:stripped_jungle_twig",
+    "count": 6
+  }
+}

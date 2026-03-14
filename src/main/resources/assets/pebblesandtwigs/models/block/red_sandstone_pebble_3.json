@@ -1,0 +1,6 @@
+{
+  "parent": "pebblesandtwigs:block/pebble_parent_3",
+  "textures": {
+    "texture": "minecraft:block/red_sandstone"
+  }
+}

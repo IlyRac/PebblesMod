@@ -1,0 +1,27 @@
+{
+  "replace": false,
+  "values": [
+    "pebblesandtwigs:acacia_twig",
+    "pebblesandtwigs:stripped_acacia_twig",
+    "pebblesandtwigs:birch_twig",
+    "pebblesandtwigs:stripped_birch_twig",
+    "pebblesandtwigs:cherry_twig",
+    "pebblesandtwigs:stripped_cherry_twig",
+    "pebblesandtwigs:crimson_twig",
+    "pebblesandtwigs:stripped_crimson_twig",
+    "pebblesandtwigs:dark_oak_twig",
+    "pebblesandtwigs:stripped_dark_oak_twig",
+    "pebblesandtwigs:jungle_twig",
+    "pebblesandtwigs:stripped_jungle_twig",
+    "pebblesandtwigs:mangrove_twig",
+    "pebblesandtwigs:stripped_mangrove_twig",
+    "pebblesandtwigs:oak_twig",
+    "pebblesandtwigs:stripped_oak_twig",
+    "pebblesandtwigs:pale_oak_twig",
+    "pebblesandtwigs:stripped_pale_oak_twig",
+    "pebblesandtwigs:spruce_twig",
+    "pebblesandtwigs:stripped_spruce_twig",
+    "pebblesandtwigs:warped_twig",
+    "pebblesandtwigs:stripped_warped_twig"
+  ]
+}

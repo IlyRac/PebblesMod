@@ -1,0 +1,6 @@
+{
+  "parent": "pebblesandtwigs:item/pebble_item_parent",
+  "textures": {
+    "texture": "minecraft:block/andesite"
+  }
+}

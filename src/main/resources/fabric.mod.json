@@ -1,47 +1,42 @@
 {
 	"schemaVersion": 1,
-	"id": "pebblemod",
-	"version": "1.0",
-	"name": "Pebbles",
-	"description": "pebbles to decorate your world and make it feel more alive!",
+	"id": "pebblesandtwigs",
+	"version": "${version}",
+	"name": "Pebbles & Twigs",
+	"description": "Adds stackable pebbles and tree twigs to turn empty terrain into a detailed and lively environment.",
 	"authors": [
-		"IlyRash"
+		"IlyRac"
 	],
-    "custom": {
-      "modmenu": {
-        "links": {
-          "Support-Me": "https://ko-fi.com/ilyrash"
-        }
-      }
-    },
-	"license": "MIT",
-	"icon": "assets/pebblemod/icon.png",
+	"custom": {
+		"modmenu": {
+			"links": {
+				"Enjoying the mod? Support me!": "https://ko-fi.com/ilyrac",
+				"License": "https://github.com/IlyRac/PebblesAndSticks/blob/main/LICENSE.md"
+			}
+		}
+	},
+	"license": "IlyRac License",
+	"icon": "assets/pebblesandtwigs/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.ilyrash.pebblemod.Pebblemod"
+			"com.ilyrac.pebblesandtwigs.PebblesAndTwigs"
 		],
 		"client": [
-			"com.ilyrash.pebblemod.PebblemodClient"
-		],
-		"fabric-datagen": [
-			"com.ilyrash.pebblemod.PebblemodDataGenerator"
+			"com.ilyrac.pebblesandtwigs.PebblesAndTwigsClient"
 		]
 	},
 	"mixins": [
-		"pebblemod.mixins.json",
+		"pebblesandtwigs.mixins.json",
 		{
-			"config": "pebblemod.client.mixins.json",
+			"config": "pebblesandtwigs.client.mixins.json",
 			"environment": "client"
 		}
 	],
 	"depends": {
-		"fabricloader": ">=0.17.2",
-		"minecraft": "~1.21.10",
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.11",
 		"java": ">=21",
 		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
 	}
 }

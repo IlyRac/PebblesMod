@@ -1,0 +1,6 @@
+{
+  "parent": "pebblesandtwigs:block/pebble_parent_1",
+  "textures": {
+    "texture": "minecraft:block/end_stone"
+  }
+}

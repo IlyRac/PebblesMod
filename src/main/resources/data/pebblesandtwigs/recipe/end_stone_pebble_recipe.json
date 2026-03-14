@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "Pebbles",
+  "ingredients": [
+    "minecraft:end_stone"
+  ],
+  "result": {
+    "id": "pebblesandtwigs:end_stone_pebble",
+    "count": 9
+  }
+}

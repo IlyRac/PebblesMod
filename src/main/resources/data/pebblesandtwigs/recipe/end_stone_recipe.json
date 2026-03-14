@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "Pebbles",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": "pebblesandtwigs:end_stone_pebble"
+  },
+  "result": {
+    "id": "minecraft:end_stone",
+    "count": 1
+  }
+}

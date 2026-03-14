@@ -1,0 +1,6 @@
+{
+  "parent": "pebblesandtwigs:item/twig_item_parent",
+  "textures": {
+    "texture": "minecraft:block/jungle_log"
+  }
+}

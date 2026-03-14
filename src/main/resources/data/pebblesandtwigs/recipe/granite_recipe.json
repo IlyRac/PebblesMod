@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "Pebbles",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": "pebblesandtwigs:granite_pebble"
+  },
+  "result": {
+    "id": "minecraft:granite",
+    "count": 1
+  }
+}

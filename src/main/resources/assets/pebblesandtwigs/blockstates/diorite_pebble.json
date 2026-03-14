@@ -1,0 +1,23 @@
+{
+  "variants": {
+    "amount=1,facing=north": { "model": "pebblesandtwigs:block/diorite_pebble_1" },
+    "amount=1,facing=east":  { "model": "pebblesandtwigs:block/diorite_pebble_1", "y": 90 },
+    "amount=1,facing=south": { "model": "pebblesandtwigs:block/diorite_pebble_1", "y": 180 },
+    "amount=1,facing=west":  { "model": "pebblesandtwigs:block/diorite_pebble_1", "y": 270 },
+
+    "amount=2,facing=north": { "model": "pebblesandtwigs:block/diorite_pebble_2" },
+    "amount=2,facing=east":  { "model": "pebblesandtwigs:block/diorite_pebble_2", "y": 90 },
+    "amount=2,facing=south": { "model": "pebblesandtwigs:block/diorite_pebble_2", "y": 180 },
+    "amount=2,facing=west":  { "model": "pebblesandtwigs:block/diorite_pebble_2", "y": 270 },
+
+    "amount=3,facing=north": { "model": "pebblesandtwigs:block/diorite_pebble_3" },
+    "amount=3,facing=east":  { "model": "pebblesandtwigs:block/diorite_pebble_3", "y": 90 },
+    "amount=3,facing=south": { "model": "pebblesandtwigs:block/diorite_pebble_3", "y": 180 },
+    "amount=3,facing=west":  { "model": "pebblesandtwigs:block/diorite_pebble_3", "y": 270 },
+
+    "amount=4,facing=north": { "model": "pebblesandtwigs:block/diorite_pebble_4" },
+    "amount=4,facing=east":  { "model": "pebblesandtwigs:block/diorite_pebble_4", "y": 90 },
+    "amount=4,facing=south": { "model": "pebblesandtwigs:block/diorite_pebble_4", "y": 180 },
+    "amount=4,facing=west":  { "model": "pebblesandtwigs:block/diorite_pebble_4", "y": 270 }
+  }
+}
