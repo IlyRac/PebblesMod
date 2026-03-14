@@ -24,6 +24,7 @@ import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.block.state.properties.BooleanProperty;
 import net.minecraft.world.level.block.state.properties.EnumProperty;
+import net.minecraft.world.level.block.state.properties.Half;
 import net.minecraft.world.level.material.FluidState;
 import net.minecraft.world.level.material.Fluids;
 import net.minecraft.world.level.storage.loot.LootParams;
@@ -38,9 +39,13 @@ public class TwigBlock extends Block implements SimpleWaterloggedBlock {
     public static final EnumProperty<Direction> FACING = BlockStateProperties.HORIZONTAL_FACING;
     public static final BooleanProperty STANDING = BooleanProperty.create("standing");
     public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
+    public static final EnumProperty<Half> HALF = BlockStateProperties.HALF;
 
+    // Hitboxes
     private static final VoxelShape SLEEPING_Z = Block.box(6.0, 0.0, 0.0, 10.0, 4.0, 16.0);
     private static final VoxelShape SLEEPING_X = Block.box(0.0, 0.0, 6.0, 16.0, 4.0, 10.0);
+    private static final VoxelShape SLEEPING_Z_TOP = Block.box(6.0, 12.0, 0.0, 10.0, 16.0, 16.0);
+    private static final VoxelShape SLEEPING_X_TOP = Block.box(0.0, 12.0, 6.0, 16.0, 16.0, 10.0);
     private static final VoxelShape STANDING_SHAPE = Block.box(6.0, 0.0, 6.0, 10.0, 16.0, 10.0);
 
     public TwigBlock(Properties properties) {
@@ -48,6 +53,7 @@ public class TwigBlock extends Block implements SimpleWaterloggedBlock {
         this.registerDefaultState(this.stateDefinition.any()
                 .setValue(FACING, Direction.NORTH)
                 .setValue(STANDING, false)
+                .setValue(HALF, Half.BOTTOM)
                 .setValue(WATERLOGGED, false));
     }
 
@@ -59,18 +65,44 @@ public class TwigBlock extends Block implements SimpleWaterloggedBlock {
         if (state.getValue(STANDING)) {
             return STANDING_SHAPE;
         }
-        return state.getValue(FACING).getAxis() == Direction.Axis.X ? SLEEPING_X : SLEEPING_Z;
+        boolean isTop = state.getValue(HALF) == Half.TOP;
+        if (state.getValue(FACING).getAxis() == Direction.Axis.X) {
+            return isTop ? SLEEPING_X_TOP : SLEEPING_X;
+        }
+        return isTop ? SLEEPING_Z_TOP : SLEEPING_Z;
     }
 
     @Override
     public BlockState getStateForPlacement(BlockPlaceContext context) {
         Direction face = context.getClickedFace();
-        boolean isStanding = face.getAxis().isVertical();
         FluidState fluidState = context.getLevel().getFluidState(context.getClickedPos());
 
+        boolean isStanding;
+        Half half;
+
+        // 1. Aiming specifically at the BOTTOM face of a block (Ceiling)
+        if (face == Direction.DOWN) {
+            isStanding = true;
+            half = Half.TOP;
+        }
+        // 2. Aiming specifically at the TOP face of a block (Floor)
+        else if (face == Direction.UP) {
+            isStanding = true;
+            half = Half.BOTTOM;
+        }
+        // 3. Aiming at the SIDES (The Trapdoor split behavior)
+        else {
+            isStanding = false;
+            double hitY = context.getClickLocation().y - (double)context.getClickedPos().getY();
+            half = hitY > 0.5 ? Half.TOP : Half.BOTTOM;
+        }
+
+        Direction facing = isStanding ? context.getHorizontalDirection().getOpposite() : face;
+
         return this.defaultBlockState()
-                .setValue(FACING, isStanding ? context.getHorizontalDirection().getOpposite() : face)
+                .setValue(FACING, facing)
                 .setValue(STANDING, isStanding)
+                .setValue(HALF, half)
                 .setValue(WATERLOGGED, fluidState.getType() == Fluids.WATER);
     }
 
@@ -81,7 +113,7 @@ public class TwigBlock extends Block implements SimpleWaterloggedBlock {
 
     @Override
     protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
-        builder.add(FACING, STANDING, WATERLOGGED);
+        builder.add(FACING, STANDING, HALF, WATERLOGGED);
     }
 
     @Override
@@ -91,17 +123,16 @@ public class TwigBlock extends Block implements SimpleWaterloggedBlock {
                                                         @NonNull Player player,
                                                         @NonNull BlockHitResult hitResult) {
         ItemStack stack = player.getItemInHand(InteractionHand.MAIN_HAND);
-
         if (stack.getItem() instanceof AxeItem) {
             Block strippedBlock = ModBlocks.getStripped(state.getBlock());
             if (strippedBlock != null) {
                 level.playSound(player, pos, SoundEvents.AXE_STRIP, SoundSource.BLOCKS, 1.0F, 1.0F);
-
                 if (!level.isClientSide()) {
                     BlockState newState = strippedBlock.defaultBlockState()
                             .setValue(FACING, state.getValue(FACING))
-                            .setValue(STANDING, state.getValue(STANDING));
-
+                            .setValue(STANDING, state.getValue(STANDING))
+                            .setValue(HALF, state.getValue(HALF))
+                            .setValue(WATERLOGGED, state.getValue(WATERLOGGED));
                     level.setBlock(pos, newState, 11);
                     stack.hurtAndBreak(1, player, EquipmentSlot.MAINHAND);
                     return InteractionResult.SUCCESS_SERVER;
@@ -124,7 +155,6 @@ public class TwigBlock extends Block implements SimpleWaterloggedBlock {
         if (state.getValue(WATERLOGGED)) {
             tickAccess.scheduleTick(pos, Fluids.WATER, Fluids.WATER.getTickDelay(level));
         }
-
         if (!state.canSurvive(level, pos)) {
             return state.getValue(WATERLOGGED) ?
                     Fluids.WATER.defaultFluidState().createLegacyBlock() : Blocks.AIR.defaultBlockState();
@@ -136,7 +166,6 @@ public class TwigBlock extends Block implements SimpleWaterloggedBlock {
     public @NonNull List<ItemStack> getDrops(@NonNull BlockState state, LootParams.@NonNull Builder builder) {
         List<ItemStack> drops = new java.util.ArrayList<>();
         drops.add(new ItemStack(this.asItem(), 1));
-
         return drops;
     }
 }
